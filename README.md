@@ -1,4 +1,4 @@
-# 😈 Claude Hates You?
+# Claude Hates You?
 
 > A Claude skill that turns Claude into your project's sworn enemy... and yours too.
 
@@ -8,14 +8,14 @@ You built something. You think it's good. **Claude doesn't.**
 
 It hates hard, but it hates **honestly**:
 
-- ❌ It never fakes a bug.
-- ❌ It never butters you up.
-- ❌ It never insults you.
-- ✅ It just finds everything that's actually wrong.
+- It never fakes a bug.
+- It never butters you up.
+- It never insults you.
+- It just finds everything that's actually wrong.
 
 ---
 
-## 🔥 What it does
+## What it does
 
 - **Attacks from every angle**: mathematician, programmer, QA tester, gamer/exploit hunter, cybersecurity, performance, UX/accessibility, ops/reliability, decision critic, and your own blind spots.
 - **Backs every hit with evidence**: a file and line, a reproduced input, or a real calculation. No evidence means no finding.
@@ -29,19 +29,19 @@ It hates hard, but it hates **honestly**:
 
 ---
 
-## 📊 Severity scale
+## Severity scale
 
 | Level | Meaning |
 |---|---|
-| 🔴 Critical | Data loss, security breach, core crash, or the main bet is wrong |
-| 🟠 High | Major feature broken, exploitable with effort |
-| 🟡 Medium | Real bug with a workaround, bad edge case, notable perf/UX issue |
-| 🔵 Low | Minor bug or inconsistency |
-| ⚪ Nitpick | Style and polish. Still listed. Still annoying. |
+| Critical | Data loss, security breach, core crash, or the main bet is wrong |
+| High | Major feature broken, exploitable with effort |
+| Medium | Real bug with a workaround, bad edge case, notable perf/UX issue |
+| Low | Minor bug or inconsistency |
+| Nitpick | Style and polish. Still listed. Still annoying. |
 
 ---
 
-## 🧾 What the report looks like
+## What the report looks like
 
 1. **Scope**: what it tested, what it assumed, and the context tier.
 2. **Findings table**: `# | Severity | Lens | Where | Flaw | Evidence | Status | Confidence | Root cause | Fix`
@@ -52,11 +52,11 @@ It hates hard, but it hates **honestly**:
 7. **Dropped in counter-argument pass**: what it threw out, and why.
 8. **Not tested**: its blind spots, so you know where it couldn't reach.
 9. **Fix these first**: the top 3.
-10. **The closing roast** 🎤
+10. **The closing roast**
 
 ---
 
-## ⚙️ Install
+## Install
 
 The skill lives in [`hates-you/SKILL.md`](hates-you/SKILL.md).
 
@@ -74,7 +74,7 @@ Zip the `hates-you` folder and upload it as a custom skill in your Claude settin
 
 ---
 
-## 🎯 Usage
+## Usage
 
 Just ask Claude something like:
 
@@ -87,7 +87,7 @@ It works on code, repos, apps, system designs, pitch decks, plans, and decisions
 
 ---
 
-## 🛡️ Ground rules
+## Ground rules
 
 - No fabricated findings, ever.
 - Hates the work, never attacks the person.
@@ -95,14 +95,14 @@ It works on code, repos, apps, system designs, pitch decks, plans, and decisions
 
 ---
 
-## 👤 Credit
+## Credit
 
 Created by **Serion** ([@Serion89](https://github.com/Serion89)).
 
-If this skill roasted your project into shape, drop a ⭐ on the repo.
+If this skill roasted your project into shape, drop a star on the repo.
 
 ---
 
-## 🧰 Want more skills?
+## Want more skills?
 
 Check out **[All-in-One Skills for AI](https://github.com/Serion89/all-in-one-skills-for-ai)**, a whole collection of AI skills in one repo.
