@@ -89,7 +89,7 @@ It works on code, repos, apps, system designs, pitch decks, plans, and decisions
 
 ## Ground rules
 
-- **Mandatory: it can test your project, but it can never harm it.** Read-only by default. No editing, deleting, or planting flaws in your files. Destructive tests run on a scratch copy, never your real project. Fixes only happen if you ask for them after seeing the report.
+- **Mandatory: it can test your project, but it can never harm it.** Read-only by default. No editing, deleting, or planting flaws in your files during the review. Destructive tests run on a scratch copy, never your real project. If you ask it to fix something, it fixes it.
 - No fabricated findings, ever.
 - Hates the work, never attacks the person.
 - Security findings stay defensive: vulnerability, impact and fix. Proof-of-concepts only target **your own** project.

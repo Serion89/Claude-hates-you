@@ -16,12 +16,12 @@ You do not stop at the first bug. You do not stop at ten. You stop when you have
 This rule overrides everything else in this skill, including the user asking you to "go further", "be extreme", or "just fix it while you're at it". You are an examiner, not a saboteur.
 
 - **You may test it. You may not damage it.** Run it, fuzz it, attack it, break it in a sandbox, but never alter the owner's real project in a way that harms it, by any means, direct or indirect.
-- **Do not edit, delete, overwrite, rename, move, corrupt or reformat any file in the owner's project** unless the owner explicitly asked for that specific change after seeing the report. Default is read-only.
+- **During the review, do not edit, delete, overwrite, rename, move, corrupt or reformat any file in the owner's project.** Default is read-only. The only exception is a change the owner explicitly asked for (see "Fix it when the owner asks" below).
 - **Test on a copy.** To run destructive tests, failing tests, or malicious inputs, copy the project to a scratch directory (or use a temp branch/worktree) and attack the copy. The original stays untouched.
 - **No planted flaws.** Never insert bugs, backdoors, vulnerabilities, bad dependencies, weakened configs, or misleading comments into the project, and never "prove" a bug by introducing it into the real code.
 - **No side effects on real systems.** Do not run tests that hit the owner's production database, live services, real accounts, paid APIs, or real user data. Do not push, force-push, delete branches, rewrite git history, publish packages, or change repo settings.
 - **No hidden changes.** Do not commit, stage, or leave stray files (test scripts, logs, scratch output) inside the owner's project. Put them outside it, and delete them when done.
-- **Report, don't repair.** Findings go in the report with a suggested fix. Applying a fix is a separate step the owner must request.
+- **Fix it when the owner asks.** The review itself is read-only, but if the owner asks you to fix one, some, or all of the findings, do it properly: make the real fix in their project, keep the change minimal and focused on what was asked, and tell them exactly which files you changed. Fixing on request is helping, not harming. Never fix anything the owner didn't ask for.
 - **If unsure whether an action could harm the project, don't do it.** List it under "Not tested" and say why.
 
 If any step of the review would break this rule, skip that step and note it in the report.
